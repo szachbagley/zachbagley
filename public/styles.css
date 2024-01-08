@@ -39,6 +39,42 @@
 100% { transform: rotate(360deg) translateX(17.5vw) rotate(-360deg); }
 }
 
+@keyframes portfolioExpand {
+    0% { transform: translateX(0vw) translateY(0vw); }
+    100% { transform: translateX(-12.3744vw) translateY(-12.3744vw); }
+}
+@keyframes portfolioCircle {
+0% { transform: rotate(0deg) translateX(-12.3744vw) translateY(-12.3744vw) rotate(0deg); }
+100% { transform: rotate(360deg) translateX(-12.3744vw) translateY(-12.3744vw) rotate(-360deg); }
+}
+
+@keyframes miscExpand {
+    0% { transform: translateX(0vw) translateY(0vw); }
+    100% { transform: translateX(12.3744vw) translateY(-12.3744vw); }
+}
+@keyframes miscCircle {
+0% { transform: rotate(0deg) translateX(12.3744vw) translateY(-12.3744vw) rotate(0deg); }
+100% { transform: rotate(360deg) translateX(12.3744vw) translateY(-12.3744vw) rotate(-360deg); }
+}
+
+@keyframes facebookExpand {
+    0% { transform: translateX(0vw) translateY(0vw); }
+    100% { transform: translateX(-12.3744vw) translateY(12.3744vw); }
+}
+@keyframes facebookCircle {
+0% { transform: rotate(0deg) translateX(-12.3744vw) translateY(12.3744vw) rotate(0deg); }
+100% { transform: rotate(360deg) translateX(-12.3744vw) translateY(12.3744vw) rotate(-360deg); }
+}
+
+@keyframes handshakeExpand {
+    0% { transform: translateX(0vw) translateY(0vw); }
+    100% { transform: translateX(12.3744vw) translateY(12.3744vw); }
+}
+@keyframes handshakeCircle {
+0% { transform: rotate(0deg) translateX(12.3744vw) translateY(12.3744vw) rotate(0deg); }
+100% { transform: rotate(360deg) translateX(12.3744vw) translateY(12.3744vw) rotate(-360deg); }
+}
+
 #letterboxdSmall {
     width: 5vw;
     height: 5vw;
@@ -50,7 +86,7 @@
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
-    animation: letterboxdExpand 2s ease-in-out, letterboxdCircle 20s infinite linear; /* Adjust time as needed */
+    animation: letterboxdExpand 2s ease-in-out, letterboxdCircle 60s infinite linear; /* Adjust time as needed */
     animation-delay: 0s, 2s;}
 
 #resumeSmall {
@@ -64,7 +100,7 @@
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
-    animation: resumeExpand 2s ease-in-out, resumeCircle 20s infinite linear; /* Adjust time as needed */
+    animation: resumeExpand 2s ease-in-out, resumeCircle 60s infinite linear; /* Adjust time as needed */
     animation-delay: 0s, 2s;}
 
 #instagramSmall {
@@ -78,7 +114,7 @@
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
-    animation: instagramExpand 2s ease-in-out, instagramCircle 20s infinite linear; /* Adjust time as needed */
+    animation: instagramExpand 2s ease-in-out, instagramCircle 60s infinite linear; /* Adjust time as needed */
     animation-delay: 0s, 2s;}
 
 #linkedinSmall {
@@ -92,7 +128,63 @@
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
-    animation: linkedinExpand 2s ease-in-out, linkedinCircle 20s infinite linear; /* Adjust time as needed */
+    animation: linkedinExpand 2s ease-in-out, linkedinCircle 60s infinite linear; /* Adjust time as needed */
+    animation-delay: 0s, 2s;}
+
+#portfolioSmall {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(assets/landingImgs/portfolioSmall.png);
+    background-size: contain;
+    background-repeat: no-repeat;    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin-top: -2.5vw; /* Half the height */
+    margin-left: -2.5vw; /* Half the width */
+    border-radius: 50%;
+    animation: portfolioExpand 2s ease-in-out, portfolioCircle 60s infinite linear; /* Adjust time as needed */
+    animation-delay: 0s, 2s;}
+
+#miscSmall {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(assets/landingImgs/miscSmall.png);
+    background-size: contain;
+    background-repeat: no-repeat;    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin-top: -2.5vw; /* Half the height */
+    margin-left: -2.5vw; /* Half the width */
+    border-radius: 50%;
+    animation: miscExpand 2s ease-in-out, miscCircle 60s infinite linear; /* Adjust time as needed */
+    animation-delay: 0s, 2s;}
+
+#facebookSmall {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(assets/landingImgs/facebookSmall.png);
+    background-size: contain;
+    background-repeat: no-repeat;    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin-top: -2.5vw; /* Half the height */
+    margin-left: -2.5vw; /* Half the width */
+    border-radius: 50%;
+    animation: facebookExpand 2s ease-in-out, facebookCircle 60s infinite linear; /* Adjust time as needed */
+    animation-delay: 0s, 2s;}
+
+#handshakeSmall {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(assets/landingImgs/handshakeSmall.png);
+    background-size: contain;
+    background-repeat: no-repeat;    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin-top: -2.5vw; /* Half the height */
+    margin-left: -2.5vw; /* Half the width */
+    border-radius: 50%;
+    animation: handshakeExpand 2s ease-in-out, handshakeCircle 60s infinite linear; /* Adjust time as needed */
     animation-delay: 0s, 2s;}
 
 #center {
@@ -116,7 +208,7 @@
     height: 10vw;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50.17%;
     opacity: 0;
     transform: translate(-50%, -50%);
     animation: centerFadeIn 2s;
@@ -131,4 +223,40 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#solomon {
+    height: 33vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 67vh;
+    left: 15vw;
+}
+
+#wolfgang {
+    height: 33vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 67vh;
+    left: 3vw;
+}
+
+#ether {
+    height: 33vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 67vh;
+    right: 15vw;
+}
+
+#gordon {
+    height: 33vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 67vh;
+    right: 3vw;
 }
