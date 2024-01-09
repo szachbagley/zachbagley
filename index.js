@@ -41,3 +41,15 @@ app.listen(port, () => console.log('My server is listening'));
 app.get("/", (req, res) => {  
     res.render('landing');
 });
+
+app.get("/resume", (req, res) => {  
+    res.render('resume.ejs');
+});
+
+app.get("/portfolio", (req, res) => {  
+    res.render('portfolio');
+});
+
+app.get("/misc", (req, res) => {  
+    res.render('misc');
+});

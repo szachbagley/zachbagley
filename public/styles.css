@@ -75,7 +75,14 @@
 100% { transform: rotate(360deg) translateX(12.3744vw) translateY(12.3744vw) rotate(-360deg); }
 }
 
+body {
+    background-color: #FBEFCA;
+}
+
+/* classes for home page */
+
 #letterboxdSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/letterboxdSmall.png);
@@ -87,107 +94,138 @@
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: letterboxdExpand 2s ease-in-out, letterboxdCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #resumeSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/resumeSmall.png);
     background-size: contain;
-    background-repeat: no-repeat;    position: absolute;
+    background-repeat: no-repeat;    
+    position: absolute;
     top: 50vh;
     left: 50vw;
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: resumeExpand 2s ease-in-out, resumeCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #instagramSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/instagramSmall.png);
     background-size: contain;
-    background-repeat: no-repeat;    position: absolute;
+    background-repeat: no-repeat;    
+    position: absolute;
     top: 50vh;
     left: 50vw;
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: instagramExpand 2s ease-in-out, instagramCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #linkedinSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/linkedinSmall.png);
     background-size: contain;
-    background-repeat: no-repeat;    position: absolute;
+    background-repeat: no-repeat;    
+    position: absolute;
     top: 50vh;
     left: 50vw;
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: linkedinExpand 2s ease-in-out, linkedinCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #portfolioSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/portfolioSmall.png);
     background-size: contain;
-    background-repeat: no-repeat;    position: absolute;
+    background-repeat: no-repeat;    
+    position: absolute;
     top: 50vh;
     left: 50vw;
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: portfolioExpand 2s ease-in-out, portfolioCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #miscSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/miscSmall.png);
     background-size: contain;
-    background-repeat: no-repeat;    position: absolute;
+    background-repeat: no-repeat;    
+    position: absolute;
     top: 50vh;
     left: 50vw;
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: miscExpand 2s ease-in-out, miscCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #facebookSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/facebookSmall.png);
     background-size: contain;
-    background-repeat: no-repeat;    position: absolute;
+    background-repeat: no-repeat;    
+    position: absolute;
     top: 50vh;
     left: 50vw;
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: facebookExpand 2s ease-in-out, facebookCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #handshakeSmall {
+    transition: 1s ease-in-out;
     width: 5vw;
     height: 5vw;
     background-image: url(assets/landingImgs/handshakeSmall.png);
     background-size: contain;
-    background-repeat: no-repeat;    position: absolute;
+    background-repeat: no-repeat;    
+    position: absolute;
     top: 50vh;
     left: 50vw;
     margin-top: -2.5vw; /* Half the height */
     margin-left: -2.5vw; /* Half the width */
     border-radius: 50%;
     animation: handshakeExpand 2s ease-in-out, handshakeCircle 60s infinite linear; /* Adjust time as needed */
-    animation-delay: 0s, 2s;}
+    animation-delay: 0s, 2s;
+    z-index: 1;
+    }
 
 #center {
+    transition: 1s ease-in-out;
     width: 30vw;
     height: 30vw;
     background-image: url(assets/landingImgs/center.png);
@@ -204,6 +242,7 @@
 }
 
 #centerImg {
+    transition: 1s ease-in-out;
     width: 10vw;
     height: 10vw;
     position: absolute;
@@ -217,6 +256,7 @@
 }
 
 #centerText {
+    transition: 1s ease-in-out;
     width: 25vw;
     height: 25vw;
     position: absolute;
@@ -226,37 +266,107 @@
 }
 
 #solomon {
-    height: 33vh;
+    transition: 1s ease-in-out;
+    height: 45vh;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 67vh;
+    top: 50vh;
     left: 15vw;
+    z-index: 0;
 }
 
 #wolfgang {
-    height: 33vh;
+    transition: 1s ease-in-out;
+    height: 45vh;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 67vh;
+    top: 40vh;
     left: 3vw;
+    z-index: 0;
 }
 
 #ether {
-    height: 33vh;
+    transition: 1s ease-in-out;
+    height: 45vh;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 67vh;
+    top: 50vh;
     right: 15vw;
+    z-index: 0;
 }
 
 #gordon {
-    height: 33vh;
+    transition: 1s ease-in-out;
+    height: 45vh;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 67vh;
+    top: 40vh;
     right: 3vw;
+    z-index: 0;
+}
+
+
+/* classes for navbar on other pages */
+#letterboxdSmall.navbar {
+    size: 0vw;
+    }
+
+#resumeSmall.navbar {
+    size: 0vw;
+    }
+
+#instagramSmall.navbar {
+    size: 0vw;
+    }
+
+#linkedinSmall.navbar {
+    size: 0vw;
+    }
+
+#portfolioSmall.navbar {
+    size: 0vw;
+    }
+
+#miscSmall.navbar {
+    size: 0vw;
+    }
+
+#facebookSmall.navbar {
+    size: 0vw;
+    }
+
+#handshakeSmall.navbar {
+    size: 0vw;
+    }
+
+#center.navbar {
+    size: 0vw;
+}
+
+#centerImg.navbar {
+    size: 0vw;
+}
+
+#centerText.navbar {
+    size: 0vw;
+}
+
+#solomon.navbar {
+    size: 0vw;
+}
+
+#wolfgang.navbar {
+    size: 0vw;
+}
+
+#ether.navbar {
+    size: 0vw;
+}
+
+#gordon.navbar {
+    size: 0vw;
 }
