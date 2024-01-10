@@ -42,10 +42,3 @@ function hsCenter() {
     centerImg.src='assets/landingImgs/handshake.png';
     centerText.src='assets/landingImgs/handshakeText.png';
 }
-
-function toPage() {
-    if (localStorage.navState !== 1) {
-        centerImg.classlist.add('navbar');
-        localStorage.navState = 1;
-    }
-}
