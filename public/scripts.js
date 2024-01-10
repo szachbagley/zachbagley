@@ -42,3 +42,14 @@ function hsCenter() {
     centerImg.src='assets/landingImgs/handshake.png';
     centerText.src='assets/landingImgs/handshakeText.png';
 }
+
+function navToggle() {
+        let menu = document.getElementById('navMenu');
+        if (menu.classList.contains('hidden')) {
+            menu.classList.remove('hidden');
+            menu.classList.add('visible');
+          } else {
+            menu.classList.remove('visible');
+            menu.classList.add('hidden');
+          }
+}

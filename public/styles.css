@@ -267,7 +267,7 @@ body {
 
 #solomon {
     transition: 1s ease-in-out;
-    height: 45vh;
+    height: 25vw;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -278,7 +278,7 @@ body {
 
 #wolfgang {
     transition: 1s ease-in-out;
-    height: 45vh;
+    height: 25vw;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -289,7 +289,7 @@ body {
 
 #ether {
     transition: 1s ease-in-out;
-    height: 45vh;
+    height: 25vw;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -300,7 +300,7 @@ body {
 
 #gordon {
     transition: 1s ease-in-out;
-    height: 45vh;
+    height: 25vw;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -308,3 +308,142 @@ body {
     right: 3vw;
     z-index: 0;
 }
+
+#navMenu {
+    position: absolute;
+    left: 15vw;
+    top: 5vh;
+    height: 100vh;
+}
+#MenuButton {
+    height: 15vh;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#navToHome {
+    transition: 0.75s ease-in-out;
+}
+
+#navToResume {
+    transition: 0.75s ease-in-out;
+}
+
+#navToPortfolio {
+    transition: 0.75s ease-in-out;
+}
+
+#navToMisc {
+    transition: 0.75s ease-in-out;
+}
+
+#navMenu.visible #navToHome {
+    background-image: url(assets/landingImgs/homeSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 20vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+}
+
+#navMenu.visible #navToResume {
+    background-image: url(assets/landingImgs/resumeSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 35vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+
+}
+
+#navMenu.visible #navToPortfolio {
+    background-image: url(assets/landingImgs/portfolioSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 50vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+
+}
+
+#navMenu.visible #navToMisc {
+    background-image: url(assets/landingImgs/miscSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 65vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+}
+
+#navMenu.hidden #navToHome {
+    background-image: url(assets/landingImgs/homeSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2.5vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+    opacity: 0;
+}
+
+#navMenu.hidden #navToResume {
+    background-image: url(assets/landingImgs/resumeSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2.5vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+    opacity: 0;
+}
+
+#navMenu.hidden #navToPortfolio {
+    background-image: url(assets/landingImgs/portfolioSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2.5vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+    opacity: 0;
+}
+
+#navMenu.hidden #navToMisc {
+    background-image: url(assets/landingImgs/miscSmall.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2.5vh;
+    left: 2.5vh;
+    height: 10vh;
+    width: 10vh;
+    z-index: 0;
+    opacity: 0;
+}
+
+.pageBody{
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+  }
