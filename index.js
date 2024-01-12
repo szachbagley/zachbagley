@@ -1,17 +1,26 @@
 //all of these are importing express and other needed engines and setting up the basics to make routes work
+console.log('Starting server...');
+// rest of your code
+
 const express = require('express');
 
-const multer = require('multer');
+
 
 const fs = require('fs');
 
 let path = require('path');
 
+console.log('Modules loaded...');
+
 const session = require('express-session');
+
+
 
 const port = process.env.PORT || 3000; //this works with aws and localhost
 
 let app = express();
+
+
 
 app.set('view engine', 'ejs');
 

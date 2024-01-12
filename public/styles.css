@@ -79,6 +79,54 @@ body {
     background-color: #FBEFCA;
 }
 
+.pageBody{
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+  }
+
+.heading {
+    font-family: 'RoughTypewriter', sans-serif;   
+    font-size: 48px;  
+    padding: 0%;
+    margin: 0%;                            
+}
+
+.subHead {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 32px;  
+    padding: 0%;
+    margin: 0%;                             
+}
+
+.subSub {
+    font-family: 'CMU Typewriter Text', sans-serif;
+    font-size: 24px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.bodyText {
+    font-family: 'CMU Typewriter Text', sans-serif;
+    font-size: 16px;
+
+    margin: 0%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: black; /* old IE */
+    background-color: black; /* Modern Browsers */
+    padding: 0%;
+    margin: 0%;
+}
+
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
 /* classes for home page */
 
 #letterboxdSmall {
@@ -310,7 +358,7 @@ body {
 }
 
 #navMenu {
-    position: absolute;
+    position: fixed;
     left: 15vw;
     top: 5vh;
     height: 100vh;
@@ -442,8 +490,14 @@ body {
     opacity: 0;
 }
 
-.pageBody{
-    position: absolute;
-    width: 50vw;
-    left: 25vw;
-  }
+.resumeDate {
+    text-align: right; 
+    width: 50%; 
+    float: right;
+}
+
+.resumeJob {
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+}
