@@ -359,12 +359,12 @@ hr {
 
 #navMenu {
     position: fixed;
-    left: 15vw;
+    right: 85vw;
     top: 5vh;
     height: 100vh;
 }
 #MenuButton {
-    height: 15vh;
+    height: 7vw;
     cursor: pointer;
     position: absolute;
     left: 0;
@@ -394,9 +394,9 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;  
     top: 20vh;
-    left: 2.5vh;
-    height: 10vh;
-    width: 10vh;
+    left: 0.5vh;
+    height: 6vw;
+    width: 6vw;
     z-index: 0;
 }
 
@@ -406,9 +406,9 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;  
     top: 35vh;
-    left: 2.5vh;
-    height: 10vh;
-    width: 10vh;
+    left: 0.5vh;
+    height: 6vw;
+    width: 6vw;
     z-index: 0;
 
 }
@@ -419,9 +419,9 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;  
     top: 50vh;
-    left: 2.5vh;
-    height: 10vh;
-    width: 10vh;
+    left: 0.5vh;
+    height: 6vw;
+    width: 6vw;
     z-index: 0;
 
 }
@@ -432,9 +432,9 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;  
     top: 65vh;
-    left: 2.5vh;
-    height: 10vh;
-    width: 10vh;
+    left: 0.5vh;
+    height: 6vw;
+    width: 6vw;
     z-index: 0;
 }
 
