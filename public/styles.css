@@ -79,6 +79,9 @@ body {
     background-color: #FBEFCA;
 }
 
+a {
+    color: inherit;
+}
 .pageBody{
     position: absolute;
     width: 50vw;
