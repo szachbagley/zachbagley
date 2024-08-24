@@ -79,6 +79,9 @@ body {
     background-color: #FBEFCA;
 }
 
+a {
+    color: inherit;
+}
 .pageBody{
     position: absolute;
     width: 50vw;
@@ -526,6 +529,23 @@ hr {
 
 #navToMisc {
     transition: 0.75s ease-in-out;
+}
+
+#menuLabel {
+    transition: 0.75s ease-in-out;
+    height: 2vw;
+    text-align: right;
+    opacity: 0;
+    position: absolute;
+    left: 0vh;
+    top: 0;
+    font-size: 1.5vh;
+
+
+}
+
+#navMenu:hover #menuLabel {
+    opacity: 1;
 }
 
 #navMenu.visible #navToHome {
