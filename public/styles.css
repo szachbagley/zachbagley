@@ -363,6 +363,18 @@ hr {
     top: 5vh;
     height: 100vh;
 }
+
+#navMenuLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.5vw; 
+    height: 7vw;
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    top: 0;
+    z-index: 1;
+}
+
 #MenuButton {
     height: 7vw;
     cursor: pointer;
@@ -372,16 +384,144 @@ hr {
     z-index: 1;
 }
 
+#navMenu.visible #navToHomeLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 23.5vh;
+}
+
+#navMenu.hidden #navToHomeLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    top: 0;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2vw;
+    opacity: 0;
+}
+
+#navToHomeLabel {
+    transition: 0.75s ease-in-out;
+    color: black;
+    text-decoration: none;
+}
+
 #navToHome {
     transition: 0.75s ease-in-out;
+}
+
+#navMenu.visible #navToResumeLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 38.5vh;
+}
+
+#navMenu.hidden #navToResumeLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    top: 0;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2vw;
+    opacity: 0;
+}
+
+#navToResumeLabel {
+    transition: 0.75s ease-in-out;
+    color: black;
+    text-decoration: none;
 }
 
 #navToResume {
     transition: 0.75s ease-in-out;
 }
 
+#navMenu.visible #navToPortfolioLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 53.5vh;
+}
+
+#navMenu.hidden #navToPortfolioLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    top: 0;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2vw;
+    opacity: 0;
+}
+
+#navToPortfolioLabel {
+    transition: 0.75s ease-in-out;
+    color: black;
+    text-decoration: none;
+}
+
 #navToPortfolio {
     transition: 0.75s ease-in-out;
+}
+
+#navMenu.visible #navToMiscLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 68.5vh;
+}
+
+#navMenu.hidden #navToMiscLabel {
+    font-family: 'RoughTypewriter', sans-serif;  
+    font-size: 2.25vw; 
+    cursor: pointer;
+    position: absolute;
+    right: 1vw;
+    top: 0;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    top: 2vw;
+    opacity: 0;
+}
+
+#navToMiscLabel {
+    transition: 0.75s ease-in-out;
+    color: black;
+    text-decoration: none;
 }
 
 #navToMisc {

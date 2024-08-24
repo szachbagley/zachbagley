@@ -11,6 +11,11 @@
 </head>
 <body>
 <div id="navMenu" class="hidden">
+    <h2 id="navMenuLabel" onclick="navToggle()">Menu</h2>
+    <a href="/" id="navToHomeLabel">Home</a>
+    <a href="/resume" id="navToResumeLabel">Resume</a>
+    <a href="/portfolio" id="navToPortfolioLabel">Portfolio</a>
+    <a href="/misc" id="navToMiscLabel">Misc.</a>
     <img src="assets/landingImgs/moon.png" id="MenuButton" onclick="navToggle()">
     <a href="/" id="navToHome"></a>
     <a href="resume" id="navToResume"></a>
@@ -25,19 +30,146 @@
     <br>
     <hr>
     <br>
-    <h1 class="subHead"><a href="//provomentalhealth.org" class="link" style="color: black;">provomentalhealth.org</a></h1>
-    <p class="subSub" style="clear: both;"><i>INTEX Fall 2023 Project</i></p>
+    <h1 class="subHead">LEGO Shop Web App</h1>
+    <p class="subSub" style="clear: both;"><i>INTEX Winter 2024 Project</i></p>
     <br>
     <p class="bodyText">
         INTEX is an abbreviation for "Integrated Experience," a project in which BYU Information Systems
         students are released from classes for a week to spend all their time on developing a web application.
-        Over the course of four days, I and a team of 3 others spent about 70 hours each developing
-        <a href="//provomentalhealth.org" class="link">provomentalhealth.org</a>. The web app is a tool for gethering and analyizing
-        data regarding the relationship between social media usage and mental health.
+        Over the course of four days, I and a team of 3 others spent about 90 hours each developing
+        shopbrickwell.org, an online storefront for a fictional LEGO influencer name Aurora Brickwell. 
+        Unfortunately the website is no longer online due to high costs and the limited budget of a college
+        student, but the videos below demonstrate the app's functions and features. The app still functions
+        locally--reach out to me if you'd like to check it out!
     </p>
     <br>
+    <h2 class="subSub">The Basics</h2>
+    <p class="bodyText">
+        In this video, my teammate Mark demonstrates the basic layout and functionality of the app, including
+        features exlusive to authenticated users and administrators.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WvWSs-vdYG4?si=1mvUa_YEYxE52sOZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <hr width="50%">
+    <br>
+    <h2 class="subSub">User Authentication & Access Control</h2>
+    <p class="bodyText">
+        In this video, my teammate Patrick demonstrates the app's user authentication and role-base
+        access control capabilites.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lAhLVmKZd6g?si=AzeXc_vr_lDTbHAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <hr width="50%">
+    <br>
+    <h2 class="subSub">Machine Learning</h2>
+    <p class="bodyText">
+        The app uses machine learning algorithms to make product-based reccomendations to all users, 
+        to make user-based reccomendations to authenticated users, and to detect and flag orders that
+        are likely to be fraudulent. My teammates çMark and Patrick walk through these features in the
+        video below.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eXpyadERgN4?si=rx5LhSQFXgn-LjmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <hr width="50%">
+    <br>
+    <h2 class="subSub">Security</h2>
+    <p class="bodyText">
+        In this final video, I walk through the security considerations and features of our app, including
+        HTTPS, HSTS, multi-factor authentication, third-party authentication, RBAC, database security, and CSP.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ahyA7MOF2fg?si=Rsz68e7bWMKgI93X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <hr width="50%">
+    <br>
+    <h2 class="subSub">Other Details</h2>
+    <p class="bodyText">
+        The application was extensively prototyped with Figma and built using ASP .NET MVC Core. The app and 
+        its two databases (one for products and other information, and one for identity and role-based access 
+        control) were all originally hosted on Microsoft Azure until no longer financially feasible. 
+    </p>
+    <br>
+    <p class="bodyText">
+        Each member of the team contributed to every part of the application, but my largest contributions
+        included designing the prototype, building and routing the product/products views, developing the 
+        identity-based features, and all security considerations.
+    </p>
+
+
+    
+    <br>
     <hr>
-    <br><br>
+    <br>
+    <h1 class="subHead">Community Mental Health Data Application</h1>
+    <p class="subSub" style="clear: both;"><i>INTEX Fall 2023 Project</i></p>
+    <br>
+    <p class="bodyText">
+        For my first INTEX project, over the course of four days, I and a team of 3 others spent about 70 
+        hours each developing provomentalhealth.org. Like my other project, this app is no longer hosted online,
+        but can be run locally--reach out to me to check it out!
+    </p>
+    <br>
+    <p class="bodyText">
+        The web app is a tool for gethering and analyizing data regarding the relationship between social media 
+        usage and mental health. It was built with Node.js and deployed to the internet using AWS Elastic
+        Beanstalk and coupled with a database hosted on RDS. The app features a survey for gathering data, a
+        dashboard for analysis, and two administrator-only features: an "Add User" function and a full report of
+        all survey responses.
+    </p>
+    <br>
+    <img width="50%" src="assets/portfolio/homepage.png"/>
+    <br>
+    <hr width="50%">
+    <br>
+    <p class="bodyText">
+        The survey includes 21 questions regarding the respondent's social media usage and mental health. The
+        results of each response are stored in the app's database (hosted on RDS for the online site) and used 
+        to inform the dashboard and report.
+    </p> 
+    <br>
+    <img src="assets/portfolio/survey.png" width="50%"/>
+    <br>
+    <hr width="50%">
+    <br>
+    <p class="bodyText">
+        The dashboard feature is available to all the app's users and displays trends and insights for all 
+        survey respondents or for a selection of respondents based on filters. The dashboard was developed 
+        with Tableau.
+    </p>
+    <br>
+    <img src="assets/portfolio/dashboard1.png" style="margin-right: 1%;" width="48%" />
+    <img src="assets/portfolio/dashboard2.png" style="margin-left: 1%;" width="48%" />
+    <br>
+    <img src="assets/portfolio/dashboard3.png" style="margin-right: 1%;" width="48%" />
+    <img src="assets/portfolio/dashboard4.png" style="margin-left: 1%;" width="48%" />
+    <br>
+    <hr width="50%">
+    <br>
+    <p class="bodyText">
+        Users logged into administrator accounts are able to add other users to the app's identity 
+        system and access the full report on each survey response. The report can be filtered to include
+        only certain responses.
+    </p>
+    <br>
+    <img src="assets/portfolio/login.png" style="margin-right: 1%;" width="48%" />
+    <img src="assets/portfolio/adduser.png" style="margin-left: 1%;" width="48%" />
+    <br>
+    <img src="assets/portfolio/report1.png" style="margin-right: 1%;" width="48%" />
+    <img src="assets/portfolio/report2.png" style="margin-left: 1%;" width="48%" />
+    <br>
+    <hr width="50%">
+    <br>
+    <img src="assets/portfolio/report3.png" style="margin-right: 1%;" width="48%" />
+    <img src="assets/portfolio/report4.png" style="margin-left: 1%;" width="48%" />
+    <br>
+    <hr>
+    <br>
+
+
+
 </div>
 </body>
 </html>
