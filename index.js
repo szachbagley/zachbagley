@@ -4,11 +4,15 @@ console.log('Starting server...');
 
 const express = require('express');
 
-
+console.log('Express loaded...');
 
 const fs = require('fs');
 
+console.log('fs loaded...');
+
 let path = require('path');
+
+console.log('path loaded...');
 
 console.log('Modules loaded...');
 
